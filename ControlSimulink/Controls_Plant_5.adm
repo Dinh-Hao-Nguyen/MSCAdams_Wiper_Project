@@ -1,0 +1,1061 @@
+Adams View model name: Chebyshev
+!
+!-------------------------------- SYSTEM UNITS ---------------------------------
+!
+UNITS/
+, FORCE = NEWTON
+, MASS = KILOGRAM
+, LENGTH = MILLIMETER
+, TIME = SECOND
+!
+!----------------------------------- PARTS -------------------------------------
+!
+!----------------------------------- Ground ------------------------------------
+!
+!                            adams_view_name='ground'
+PART/1
+, GROUND
+!
+!                           adams_view_name='POINT_O'
+MARKER/1
+, PART = 1
+, QP = 630.28, 111.13, 0
+!
+!                           adams_view_name='POINT_H'
+MARKER/2
+, PART = 1
+, QP = 631.75, 81.171, 0
+!
+!                           adams_view_name='POINT_G'
+MARKER/3
+, PART = 1
+, QP = 592.06, 122.95, 0
+!
+!                           adams_view_name='POINT_F'
+MARKER/4
+, PART = 1
+, QP = 679.87, 13.907, 0
+!
+!                           adams_view_name='POINT_E'
+MARKER/5
+, PART = 1
+, QP = 559.89, 11.621, 0
+!
+!                           adams_view_name='POINT_D'
+MARKER/6
+, PART = 1
+, QP = -50, 0, 0
+!
+!                           adams_view_name='POINT_P'
+MARKER/7
+, PART = 1
+!
+!                          adams_view_name='MARKER_20'
+MARKER/20
+, PART = 1
+, QP = 0, 0, -0.045
+!
+!                          adams_view_name='MARKER_33'
+MARKER/33
+, PART = 1
+, QP = 630.28, 111.13, 0
+!
+!                          adams_view_name='MARKER_35'
+MARKER/35
+, PART = 1
+, QP = 630.28, 111.13, 0
+!
+!                           adams_view_name='POINT_BB'
+MARKER/49
+, PART = 1
+, QP = -654.75, 67.869, 0
+!
+!                           adams_view_name='POINT_R'
+MARKER/50
+, PART = 1
+, QP = 107.19, 621.21, 0
+!
+!                          adams_view_name='POINT_OOOO'
+MARKER/51
+, PART = 1
+, QP = -599.72, 111.13, 0
+!
+!                          adams_view_name='MARKER_61'
+MARKER/61
+, PART = 1
+, QP = -599.72, 111.13, 0
+!
+!                           adams_view_name='POINT_A'
+MARKER/64
+, PART = 1
+, QP = 684.85, 104.26, 0
+!
+!                           adams_view_name='POINT_B'
+MARKER/65
+, PART = 1
+, QP = 1314.5, 83.28, 0
+!
+!                           adams_view_name='POINT_OO'
+MARKER/66
+, PART = 1
+, QP = 1250.3, 111.13, 0
+!
+!                           adams_view_name='POINT_RR'
+MARKER/67
+, PART = 1
+, QP = 774.47, 260.91, 0
+!
+!                          adams_view_name='MARKER_76'
+MARKER/76
+, PART = 1
+, QP = 630.28, 111.13, 0
+!
+!                          adams_view_name='MARKER_83'
+MARKER/83
+, PART = 1
+, QP = 1250.3, 111.13, 0
+!
+!                           adams_view_name='POINT_S'
+MARKER/151
+, PART = 1
+, QP = 1107.1, 635.39, 0
+!
+!                           adams_view_name='POINT_SS'
+MARKER/161
+, PART = 1
+, QP = -225.53, 260.44, 0
+!
+!                          adams_view_name='MARKER_170'
+MARKER/170
+, PART = 1
+, QP = 377.5048658, 1075.599449, 17.28738253
+!
+!                            adams_view_name='trash'
+MARKER/171
+, PART = 1
+, QP = 559.89, 11.621, 10
+!
+!                            adams_view_name='trash2'
+MARKER/172
+, PART = 1
+, QP = 679.87, 13.907, -10
+!
+!                            adams_view_name='trash3'
+MARKER/173
+, PART = 1
+, QP = 684.85, 104.26, -10
+!
+!                            adams_view_name='trash4'
+MARKER/174
+, PART = 1
+, QP = 0, 0, -10
+!
+!                            adams_view_name='trash5'
+MARKER/175
+, PART = 1
+, QP = -50, 0, 10
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_CHEB_1'
+PART/2
+, QG = 0, 0, -10
+, MASS = 0.0932444354
+, CM = 36
+, IP = 111.9171914, 111.9040215, 1.540903989
+!
+!                           adams_view_name='MARKER_8'
+MARKER/8
+, PART = 2
+, REULER = 123.6900675D, 0D, 0D
+!
+!                           adams_view_name='MARKER_9'
+MARKER/9
+, PART = 2
+, QP = -50, 0, 0
+, REULER = 123.6900675D, 0D, 0D
+!
+!                          adams_view_name='MARKER_22'
+MARKER/22
+, PART = 2
+, QP = -50, 0, 10
+!
+!                              adams_view_name='cm'
+MARKER/36
+, PART = 2
+, QP = -25, 0, 0
+, REULER = 63.43494882D, 89.99999998D, 7.999019417E-06D
+!
+!                          adams_view_name='MARKER_56'
+MARKER/56
+, PART = 2
+, QP = -50, 0, 10
+!
+!                          adams_view_name='MARKER_98'
+MARKER/98
+, PART = 2
+, QP = 0, 0, 10
+, REULER = 162.0671959D, 78.74615834D, 257.8217071D
+!
+!                          adams_view_name='MARKER_145'
+MARKER/145
+, PART = 2
+, QP = -50, 0, 10
+!
+!                          adams_view_name='MARKER_146'
+MARKER/146
+, PART = 2
+, QP = -50, 0, 10
+!
+!                          adams_view_name='MARKER_147'
+MARKER/147
+, PART = 2
+, QP = -50, 0, 10
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_CHEB_2'
+PART/3
+, MASS = 0.3276700738
+, CM = 37
+, IP = 4820.743664, 4820.730494, 5.447997952
+!
+!                          adams_view_name='MARKER_10'
+MARKER/10
+, PART = 3
+, QP = -50, 0, 0
+, REULER = 180D, 0D, 0D
+!
+!                          adams_view_name='MARKER_11'
+MARKER/11
+, PART = 3
+, QP = 679.87, 13.907, 0
+, REULER = 180D, 0D, 0D
+!
+!                          adams_view_name='MARKER_23'
+MARKER/23
+, PART = 3
+, QP = -50, 0, 0
+!
+!                          adams_view_name='MARKER_24'
+MARKER/24
+, PART = 3
+, QP = 559.89, 11.621, 0
+!
+!                          adams_view_name='MARKER_26'
+MARKER/26
+, PART = 3
+, QP = 679.87, 13.907, 0
+!
+!                              adams_view_name='cm'
+MARKER/37
+, PART = 3
+, QP = 314.935, 6.9535, 0
+, REULER = 75.96375653D, 89.99999999D, 4.160553471E-05D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                         adams_view_name='BAR_CHEB_4A'
+PART/4
+, QG = 0, 0, -10
+, MASS = 0.1715108039
+, CM = 38
+, IP = 692.5219279, 692.508758, 2.845343459
+!
+!                          adams_view_name='MARKER_12'
+MARKER/12
+, PART = 4
+, QP = 679.87, 13.907, 0
+, REULER = 315D, 0D, 0D
+!
+!                          adams_view_name='MARKER_13'
+MARKER/13
+, PART = 4
+, QP = 592.06, 122.95, 0
+, REULER = 315D, 0D, 0D
+!
+!                          adams_view_name='MARKER_27'
+MARKER/27
+, PART = 4
+, QP = 679.87, 13.907, 10
+!
+!                          adams_view_name='MARKER_28'
+MARKER/28
+, PART = 4
+, QP = 592.06, 122.95, 10
+!
+!                              adams_view_name='cm'
+MARKER/38
+, PART = 4
+, QP = 635.965, 68.4285, 0
+, REULER = 45D, 90.00000002D, 359.9999752D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                         adams_view_name='BAR_CHEB_5A'
+PART/5
+, MASS = 0.0611880039
+, CM = 39
+, IP = 31.96098179, 31.94781186, 1.006630134
+!
+!                          adams_view_name='MARKER_14'
+MARKER/14
+, PART = 5
+, QP = 592.06, 122.95, 0
+, REULER = 225D, 0D, 0D
+!
+!                          adams_view_name='MARKER_15'
+MARKER/15
+, PART = 5
+, QP = 630.28, 111.13, 0
+, REULER = 225D, 0D, 0D
+!
+!                          adams_view_name='MARKER_29'
+MARKER/29
+, PART = 5
+, QP = 592.06, 122.95, 0
+!
+!                          adams_view_name='MARKER_32'
+MARKER/32
+, PART = 5
+, QP = 630.28, 111.13, 0
+!
+!                              adams_view_name='cm'
+MARKER/39
+, PART = 5
+, QP = 611.17, 117.04, 0
+, REULER = 315D, 90D, 359.9999989D
+!
+!                          adams_view_name='MARKER_157'
+MARKER/157
+, PART = 5
+, QP = 630.28, 111.13, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                         adams_view_name='BAR_CHEB_4B'
+PART/6
+, QG = 0, 0, 10
+, MASS = 0.1466611314
+, CM = 40
+, IP = 433.3971127, 433.3839428, 2.431182252
+!
+!                          adams_view_name='MARKER_16'
+MARKER/16
+, PART = 6
+, QP = 559.89, 11.621, 0
+, REULER = 225D, 0D, 0D
+!
+!                          adams_view_name='MARKER_17'
+MARKER/17
+, PART = 6
+, QP = 631.75, 81.171, 0
+, REULER = 225D, 0D, 0D
+!
+!                          adams_view_name='MARKER_25'
+MARKER/25
+, PART = 6
+, QP = 559.89, 11.621, -10
+!
+!                          adams_view_name='MARKER_30'
+MARKER/30
+, PART = 6
+, QP = 631.75, 81.171, -10
+!
+!                              adams_view_name='cm'
+MARKER/40
+, PART = 6
+, QP = 595.82, 46.396, 0
+, REULER = 123.6900675D, 89.99999998D, 2.150770786E-05D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                         adams_view_name='BAR_CHEB_5B'
+PART/7
+, MASS = 0.0611880039
+, CM = 41
+, IP = 31.96098179, 31.94781186, 1.006630134
+!
+!                          adams_view_name='MARKER_18'
+MARKER/18
+, PART = 7
+, QP = 631.75, 81.171, 0
+, REULER = 315D, 0D, 0D
+!
+!                          adams_view_name='MARKER_19'
+MARKER/19
+, PART = 7
+, QP = 630.28, 111.13, 0
+, REULER = 315D, 0D, 0D
+!
+!                          adams_view_name='MARKER_31'
+MARKER/31
+, PART = 7
+, QP = 631.75, 81.171, 0
+!
+!                          adams_view_name='MARKER_34'
+MARKER/34
+, PART = 7
+, QP = 630.28, 111.13, 0
+!
+!                              adams_view_name='cm'
+MARKER/41
+, PART = 7
+, QP = 631.015, 96.1505, 0
+, REULER = 45D, 90D, 359.9999989D
+!
+!                          adams_view_name='MARKER_158'
+MARKER/158
+, PART = 7
+, QP = 630.28, 111.13, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!                          adams_view_name='MARKER_160'
+MARKER/160
+, PART = 7
+, QP = 630.28, 111.13, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BL_2'
+PART/9
+, QG = 0, 0, 10
+, MASS = 0.7097958596
+, CM = 62
+, IP = 12266.78301, 12249.01178, 29.54848743
+!
+!                          adams_view_name='MARKER_52'
+MARKER/52
+, PART = 9
+, QP = -50, 0, 0
+, REULER = 194.0362435D, 0D, 0D
+!
+!                          adams_view_name='MARKER_53'
+MARKER/53
+, PART = 9
+, QP = -654.75, 67.869, 0
+, REULER = 194.0362435D, 0D, 0D
+!
+!                          adams_view_name='MARKER_57'
+MARKER/57
+, PART = 9
+, QP = -50, 0, -10
+!
+!                          adams_view_name='MARKER_58'
+MARKER/58
+, PART = 9
+, QP = -654.75, 67.869, -10
+!
+!                              adams_view_name='cm'
+MARKER/62
+, PART = 9
+, QP = -352.375, 33.9345, 0
+, REULER = 116.5650512D, 90.00000002D, 359.9999999D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BL_3'
+PART/10
+, MASS = 0.4801132079
+, CM = 63
+, IP = 3805.33515, 3793.30598, 19.97837713
+!
+!                          adams_view_name='MARKER_54'
+MARKER/54
+, PART = 10
+, QP = -654.75, 67.869, 0
+, REULER = 90D, 0D, 0D
+!
+!                          adams_view_name='MARKER_55'
+MARKER/55
+, PART = 10
+, QP = 107.19, 621.21, 0
+, REULER = 90D, 0D, 0D
+!
+!                          adams_view_name='MARKER_59'
+MARKER/59
+, PART = 10
+, QP = -654.75, 67.869, 0
+!
+!                          adams_view_name='MARKER_60'
+MARKER/60
+, PART = 10
+, QP = -599.72, 111.13, 0
+!
+!                              adams_view_name='cm'
+MARKER/63
+, PART = 10
+, QP = -273.78, 344.5395, 0
+, REULER = 0D, 90D, 0D
+!
+!                          adams_view_name='MARKER_144'
+MARKER/144
+, PART = 10
+, QP = -129.75, 2.5, 0
+!
+!                          adams_view_name='MARKER_156'
+MARKER/156
+, PART = 10
+, QP = 107.19, 621.21, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BR_2'
+PART/11
+, QG = 0, 0, -10
+, MASS = 0.731269871
+, CM = 84
+, IP = 13412.59845, 13394.29036, 30.44323795
+!
+!                          adams_view_name='MARKER_68'
+MARKER/68
+, PART = 11
+, QP = 684.85, 104.26, 0
+, REULER = 347.4711923D, 0D, 0D
+!
+!                          adams_view_name='MARKER_69'
+MARKER/69
+, PART = 11
+, QP = 1314.5, 83.28, 0
+, REULER = 347.4711923D, 0D, 0D
+!
+!                          adams_view_name='MARKER_79'
+MARKER/79
+, PART = 11
+, QP = 684.85, 104.26, 10
+!
+!                          adams_view_name='MARKER_80'
+MARKER/80
+, PART = 11
+, QP = 1314.5, 83.28, 10
+!
+!                              adams_view_name='cm'
+MARKER/84
+, PART = 11
+, QP = 999.675, 93.77, 0
+, REULER = 77.47119229D, 89.99999999D, 1.424781264E-07D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BR_3'
+PART/12
+, MASS = 0.5581232079
+, CM = 85
+, IP = 5971.15073, 5957.17131, 23.22879371
+!
+!                          adams_view_name='MARKER_70'
+MARKER/70
+, PART = 12
+, QP = 1314.5, 83.28, 0
+, REULER = 90D, 0D, 0D
+!
+!                          adams_view_name='MARKER_71'
+MARKER/71
+, PART = 12
+, QP = 774.47, 260.91, 0
+, REULER = 90D, 0D, 0D
+!
+!                          adams_view_name='MARKER_81'
+MARKER/81
+, PART = 12
+, QP = 1314.5, 83.28, 0
+!
+!                          adams_view_name='MARKER_82'
+MARKER/82
+, PART = 12
+, QP = 1250.3, 111.13, 0
+!
+!                              adams_view_name='cm'
+MARKER/85
+, PART = 12
+, QP = 1044.485, 172.095, 0
+, REULER = 0D, 90D, 0D
+!
+!                          adams_view_name='MARKER_165'
+MARKER/165
+, PART = 12
+, QP = 774.47, 260.91, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BR_1'
+PART/13
+, MASS = 0.1680732079
+, CM = 86
+, IP = 168.3629288, 164.1347587, 6.976710459
+!
+!                          adams_view_name='MARKER_72'
+MARKER/72
+, PART = 13
+, QP = 684.85, 104.26, 0
+, REULER = 270D, 0D, 0D
+!
+!                          adams_view_name='MARKER_73'
+MARKER/73
+, PART = 13
+, QP = 630.28, 111.13, 0
+, REULER = 270D, 0D, 0D
+!
+!                          adams_view_name='MARKER_77'
+MARKER/77
+, PART = 13
+, QP = 630.28, 111.13, 0
+!
+!                          adams_view_name='MARKER_78'
+MARKER/78
+, PART = 13
+, QP = 684.85, 104.26, 0
+!
+!                              adams_view_name='cm'
+MARKER/86
+, PART = 13
+, QP = 657.565, 107.695, 0
+, REULER = 0D, 90D, 0D
+!
+!                          adams_view_name='MARKER_159'
+MARKER/159
+, PART = 13
+, QP = 630.28, 111.13, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                           adams_view_name='m_shaft'
+PART/15
+, MASS = 0.0245075643
+, CM = 114
+, IP = 3.420847516, 3.420847516, 0.3063445536
+!
+!                          adams_view_name='MARKER_21'
+MARKER/21
+, PART = 15
+, QP = 0, 0, -0.045
+!
+!                          adams_view_name='MARKER_96'
+MARKER/96
+, PART = 15
+, QP = 0, 0, -15
+, REULER = 270D, 180D, 0D
+!
+!                          adams_view_name='MARKER_97'
+MARKER/97
+, PART = 15
+, REULER = 162.0671959D, 78.74615834D, 257.8217071D
+!
+!                              adams_view_name='cm'
+MARKER/99
+, PART = 15
+, QP = 0, 0, -0.02
+!
+!                            adams_view_name='MARKER'
+MARKER/114
+, PART = 15
+, QP = 0, 0, -0.02
+!
+!                          adams_view_name='MARKER_176'
+MARKER/176
+, PART = 15
+, QP = 0, 0, -15
+!
+!                          adams_view_name='MARKER_177'
+MARKER/177
+, PART = 15
+, QP = 0, 0, -15
+!
+!                         adams_view_name='CYLINDER_14'
+GRAPHICS/14
+, CYLINDER
+, CM = 96
+, LENGTH = 25
+, RADIUS = 5
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BL_4'
+PART/24
+, MASS = 0.1368692079
+, CM = 154
+, IP = 92.5194353, 89.07136524, 5.676543795
+!
+!                          adams_view_name='MARKER_152'
+MARKER/152
+, PART = 24
+, QP = 107.19, 621.21, 0
+, REULER = 270D, 0D, 0D
+!
+!                          adams_view_name='MARKER_153'
+MARKER/153
+, PART = 24
+, QP = 1107.1, 635.39, 0
+, REULER = 270D, 0D, 0D
+!
+!                              adams_view_name='cm'
+MARKER/154
+, PART = 24
+, QP = 607.145, 628.3, 0
+, REULER = 90D, 89.99999999D, 6.18416456D
+!
+!                          adams_view_name='MARKER_155'
+MARKER/155
+, PART = 24
+, QP = 107.19, 621.21, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='BAR_4BR_4'
+PART/25
+, QG = 82.3, -252, 0
+, MASS = 1.650263208
+, CM = 166
+, IP = 1.539144274E+05, 1.538731445E+05, 68.7346258
+!
+!                          adams_view_name='MARKER_162'
+MARKER/162
+, PART = 25
+, QP = 692.17, 512.91, 0
+, REULER = 270D, 0D, 0D
+!
+!                          adams_view_name='MARKER_163'
+MARKER/163
+, PART = 25
+, QP = -307.83, 512.44, 0
+, REULER = 270D, 0D, 0D
+!
+!                          adams_view_name='MARKER_164'
+MARKER/164
+, PART = 25
+, QP = 692.17, 512.91, 0
+, REULER = 3.066432096D, 6.192962972D, 355.3753961D
+!
+!                              adams_view_name='cm'
+MARKER/166
+, PART = 25
+, QP = 192.17, 512.675, 0
+, REULER = 90D, 90D, 0D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                          adams_view_name='windshield'
+PART/26
+, MASS = 66.3085
+, CM = 168
+, IP = 5.050497417E+07, 3.453569919E+07, 1.596931919E+07
+!
+!                          adams_view_name='MARKER_167'
+MARKER/167
+, PART = 26
+, QP = -1099.7, 211.13, -20
+!
+!                              adams_view_name='cm'
+MARKER/168
+, PART = 26
+, QP = 150.3, 1061.13, -19
+, REULER = 270D, 90D, 90D
+!
+!                          adams_view_name='MARKER_169'
+MARKER/169
+, PART = 26
+, QP = 377.5048658, 1075.599449, 17.28738253
+!
+!                            adams_view_name='BOX_39'
+GRAPHICS/39
+, BOX
+, CORNER = 167
+, X = 2500
+, Y = 1700
+, Z = 2
+!
+!------------------------------ DYNAMIC GRAPHICS -------------------------------
+!
+!                   adams_view_name='SFORCE_1_force_graphic_1'
+GRAPHICS/40
+, FORCE
+, ETYPE = SFORCE
+, EID = 1
+, EMARKER = 176
+!
+!-------------------------------- CONSTRAINTS ----------------------------------
+!
+!                           adams_view_name='JOINT_1'
+JOINT/1
+, REVOLUTE
+, I = 20
+, J = 21
+!
+!                           adams_view_name='JOINT_2'
+JOINT/2
+, REVOLUTE
+, I = 22
+, J = 23
+!
+!                           adams_view_name='JOINT_3'
+JOINT/3
+, REVOLUTE
+, I = 24
+, J = 25
+!
+!                           adams_view_name='JOINT_4'
+JOINT/4
+, REVOLUTE
+, I = 26
+, J = 27
+!
+!                           adams_view_name='JOINT_5'
+JOINT/5
+, REVOLUTE
+, I = 28
+, J = 29
+!
+!                           adams_view_name='JOINT_6'
+JOINT/6
+, REVOLUTE
+, I = 30
+, J = 31
+!
+!                           adams_view_name='JOINT_7'
+JOINT/7
+, REVOLUTE
+, I = 32
+, J = 33
+!
+!                           adams_view_name='JOINT_8'
+JOINT/8
+, REVOLUTE
+, I = 34
+, J = 35
+!
+!                           adams_view_name='JOINT_11'
+JOINT/11
+, REVOLUTE
+, I = 56
+, J = 57
+!
+!                           adams_view_name='JOINT_12'
+JOINT/12
+, REVOLUTE
+, I = 58
+, J = 59
+!
+!                           adams_view_name='JOINT_13'
+JOINT/13
+, REVOLUTE
+, I = 60
+, J = 61
+!
+!                           adams_view_name='JOINT_14'
+JOINT/14
+, REVOLUTE
+, I = 76
+, J = 77
+!
+!                           adams_view_name='JOINT_15'
+JOINT/15
+, REVOLUTE
+, I = 78
+, J = 79
+!
+!                           adams_view_name='JOINT_16'
+JOINT/16
+, REVOLUTE
+, I = 80
+, J = 81
+!
+!                           adams_view_name='JOINT_17'
+JOINT/17
+, REVOLUTE
+, I = 82
+, J = 83
+!
+!                           adams_view_name='JOINT_20'
+JOINT/20
+, FIXED
+, I = 97
+, J = 98
+!
+!                           adams_view_name='JOINT_28'
+JOINT/28
+, FIXED
+, I = 155
+, J = 156
+!
+!                           adams_view_name='JOINT_29'
+JOINT/29
+, FIXED
+, I = 157
+, J = 158
+!
+!                           adams_view_name='JOINT_30'
+JOINT/30
+, FIXED
+, I = 159
+, J = 160
+!
+!                           adams_view_name='JOINT_31'
+JOINT/31
+, FIXED
+, I = 164
+, J = 165
+!
+!                           adams_view_name='JOINT_32'
+JOINT/32
+, FIXED
+, I = 169
+, J = 170
+!
+!----------------------------------- FORCES ------------------------------------
+!
+!                           adams_view_name='SFORCE_1'
+SFORCE/1
+, ROTATIONAL
+, I = 176
+, J = 177
+, ACTIONONLY
+, FUNCTION = -VARVAL(32)
+!
+!------------------------------ DATA STRUCTURES --------------------------------
+!
+!                            adams_view_name='theta'
+VARIABLE/2
+, IC = 0
+, FUNCTION = AZ(36,7)
+!
+!                            adams_view_name='omega'
+VARIABLE/3
+, IC = 0
+, FUNCTION = WZ(36, 7, 7)
+!
+!                          adams_view_name='LEFT_WIPER'
+VARIABLE/18
+, FUNCTION = RTOD*INCANG(85,66,67)
+!
+!                         adams_view_name='RIGHT_WIPER'
+VARIABLE/19
+, FUNCTION = RTOD*INCANG(63,51,50)
+!
+!                   adams_view_name='THETAD_D.THETAD_D_input'
+VARIABLE/20
+, FUNCTION = 20
+!
+!                      adams_view_name='THETAD_D.THETAD_D'
+VARIABLE/21
+, FUNCTION = varval(20)
+!
+!                   adams_view_name='THETAD_A.THETAD_A_input'
+VARIABLE/22
+, FUNCTION = WZ( 99)
+!
+!                        adams_view_name='SUM.SUM_input1'
+VARIABLE/23
+, FUNCTION = varval(21)
+!
+!                        adams_view_name='SUM.SUM_input2'
+VARIABLE/24
+, FUNCTION = varval(26)
+!
+!                      adams_view_name='GAINN.GAINN_input'
+VARIABLE/25
+, FUNCTION = varval(27)
+!
+!                      adams_view_name='THETAD_A.THETAD_A'
+VARIABLE/26
+, FUNCTION = varval(22)
+!
+!                           adams_view_name='SUM.SUM'
+VARIABLE/27
+, FUNCTION = 1.0 * varval(23)
+,+ -1.0 * varval(24)
+!
+!                         adams_view_name='GAINN.GAINN'
+VARIABLE/28
+, FUNCTION = 1.0E+07 * varval(25)
+!
+!                     adams_view_name='PIDCON.PIDCON_input'
+VARIABLE/29
+, FUNCTION = varval(27)
+!
+!                    adams_view_name='PIDCON.PIDCON_input_d'
+VARIABLE/30
+, FUNCTION = varval(27)
+!
+!                        adams_view_name='PIDCON.PIDCON'
+VARIABLE/31
+, FUNCTION = 1.0E+07 * varval(29) +
+,0.0 * dif(1) +
+,40.0 * varval(30)
+!
+!                        adams_view_name='matlab_torque'
+VARIABLE/32
+, IC = 0
+, FUNCTION = 0
+!
+!                              adams_view_name='WR'
+VARIABLE/33
+, IC = 0
+, FUNCTION = AZ(85,66)
+!
+!                              adams_view_name='WL'
+VARIABLE/34
+, IC = 0
+, FUNCTION = AZ(63,51)
+!
+!                 adams_view_name='Controls_Plant_2.ctrl_pinput'
+PINPUT/1
+, VARIABLES = 32
+!
+!                 adams_view_name='Controls_Plant_3.ctrl_pinput'
+PINPUT/2
+, VARIABLES = 32
+!
+!                 adams_view_name='Controls_Plant_4.ctrl_pinput'
+PINPUT/3
+, VARIABLES = 32
+!
+!                 adams_view_name='Controls_Plant_5.ctrl_pinput'
+PINPUT/4
+, VARIABLES = 32
+!
+!                adams_view_name='Controls_Plant_2.ctrl_poutput'
+POUTPUT/1
+, VARIABLES = 3, 2, 34, 33, 22
+!
+!                adams_view_name='Controls_Plant_3.ctrl_poutput'
+POUTPUT/2
+, VARIABLES = 3, 2, 34, 33, 22
+!
+!                adams_view_name='Controls_Plant_4.ctrl_poutput'
+POUTPUT/3
+, VARIABLES = 3, 2, 34, 33, 22
+!
+!                adams_view_name='Controls_Plant_5.ctrl_poutput'
+POUTPUT/4
+, VARIABLES = 3, 2, 34, 33, 22
+!
+!--------------------------------- EQUATIONS -----------------------------------
+!
+!                      adams_view_name='PIDCON.PIDCON_sys'
+DIFF/1
+, IC = 0
+, FUNCTION = varval(29)
+!
+!------------------------- GRAVITATIONAL ACCELERATION --------------------------
+!
+ACCGRAV/
+, JGRAV = -9806.65
+!
+!----------------------------- ANALYSIS SETTINGS -------------------------------
+!
+KINEMATICS/
+!
+OUTPUT/
+, REQSAVE
+, GRSAVE
+!
+RESULTS/
+, XRF
+!
+END
